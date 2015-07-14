@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+    <script>
+      System.import('app').catch(function(error) {
+        setTimeout(function(){ console.error(error.stack); throw error; });
+      });
+    </script>
+  </head>
+  <body>
+    <span id="out">hello</span>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "dom-delegator": "npm:dom-delegator@^13.1.0",
+      "virtual-dom": "npm:virtual-dom@^2.0.1"
+    },
+    "devDependencies": {
+      "traceur": "github:jmcriffey/bower-traceur@0.0.90",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.90"
+    }
+  }
+}
