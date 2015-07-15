@@ -10,19 +10,19 @@ worker.postMessage({
   module: 'worker-impl'
 });
 
-import h     from 'virtual-dom/h';
-import diff  from 'virtual-dom/diff';
+// import h     from 'virtual-dom/h';
+// import diff  from 'virtual-dom/diff';
+// const el1 = h('span', ['hello']);
+// const el2 = h('span', ['hello', h('span', 'world')]);
+// const diffed = diff(el1, el2)
+// console.log("local", diffed, "from worker", data.patch);
+
+const out = document.getElementById('out');
 
 worker.addEventListener('message', function(event) {
   console.log("main: message", event);
   const data = event.data;
   if (data.type === 'patch') {
-    const out = document.getElementById('out');
-    // const el1 = h('span', ['hello']);
-    // const el2 = h('span', ['hello', h('span', 'world')]);
-    // const diffed = diff(el1, el2)
-    // console.log("local", diffed, "from worker", data.patch);
-
     const d = data.patch;
 
     // Transform plain Object tree back into tree of Virtual* instances
