@@ -13,6 +13,7 @@ System.config({
     "dom-delegator": "npm:dom-delegator@13.1.0",
     "traceur": "github:jmcriffey/bower-traceur@0.0.90",
     "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.90",
+    "vdom-virtualize": "npm:vdom-virtualize@0.0.10",
     "virtual-dom": "npm:virtual-dom@2.0.1",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
@@ -66,6 +67,9 @@ System.config({
     "npm:util@0.10.3": {
       "inherits": "npm:inherits@2.0.1",
       "process": "github:jspm/nodelibs-process@0.1.1"
+    },
+    "npm:vdom-virtualize@0.0.10": {
+      "virtual-dom": "npm:virtual-dom@2.0.1"
     },
     "npm:virtual-dom@2.0.1": {
       "browser-split": "npm:browser-split@0.0.1",

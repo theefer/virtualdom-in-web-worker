@@ -3,6 +3,7 @@
     "directories": {},
     "dependencies": {
       "dom-delegator": "npm:dom-delegator@^13.1.0",
+      "vdom-virtualize": "npm:vdom-virtualize@^0.0.10",
       "virtual-dom": "npm:virtual-dom@^2.0.1"
     },
     "devDependencies": {

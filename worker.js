@@ -8,6 +8,6 @@ this.addEventListener('message', function(event) {
   if (data.action === 'import') {
     System.import(data.module);
   }
-  console.log("worker: message", event);
-  console.log("data", event.data);
+
+  console.log("worker: message", data);
 });
