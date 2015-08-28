@@ -1,4 +1,22 @@
 {
+  "name": "virtualdom-in-web-worker",
+  "description": "This is a proof-of-concept to show how a web app can run entirely in a Web Worker, off the main thread.",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "postinstall": "jspm install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theefer/virtualdom-in-web-worker.git"
+  },
+  "author": "Sébastien Cevey <seb@cine7.net>",
+  "license": "GPL-2",
+  "bugs": {
+    "url": "https://github.com/theefer/virtualdom-in-web-worker/issues"
+  },
+  "homepage": "https://github.com/theefer/virtualdom-in-web-worker",
   "jspm": {
     "directories": {},
     "dependencies": {

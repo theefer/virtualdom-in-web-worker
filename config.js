@@ -1,15 +1,13 @@
 System.config({
-  "baseURL": "/",
-  "defaultJSExtensions": true,
-  "transpiler": "traceur",
-  "paths": {
+  baseURL: "/",
+  defaultJSExtensions: true,
+  transpiler: "traceur",
+  paths: {
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
-  }
-});
+  },
 
-System.config({
-  "map": {
+  map: {
     "dom-delegator": "npm:dom-delegator@13.1.0",
     "traceur": "github:jmcriffey/bower-traceur@0.0.90",
     "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.90",
@@ -83,4 +81,3 @@ System.config({
     }
   }
 });
-
